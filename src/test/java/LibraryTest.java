@@ -58,6 +58,11 @@ public class LibraryTest {
         
     }
 	
+	@Test
+	public void testFail() {
+		Assert.fail();
+	}
+	
 	@After
 	public void closeBrowser(){
 		driver.quit();
